@@ -21,3 +21,11 @@ function isPalindrome(x){
 }
 
 console.log(isPalindrome(x));
+
+
+// OR using in build function
+
+function isPalindrome1(num){
+    return num.toString() === num.toString().split('').reverse().join('')
+}
+console.log(isPalindrome1("sis"));
