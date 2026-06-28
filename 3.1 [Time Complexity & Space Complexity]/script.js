@@ -19,3 +19,5 @@
 // O(2^n)
 // O(n!)
 
+//  CONST TIME COMPLEXITY 
+//  mean if size grow it still x=1 Ex : array what ever the value inside the array the time complexity is always 1 like arr[.....n] arr[5] so op is 5 at index 4 it will jump directly
