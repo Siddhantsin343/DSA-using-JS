@@ -7,4 +7,15 @@
 
 //  To represent time Complexity we use [Big O notaion]
 
-// # Big O notation : say we measure the time complexity in worse case 
+// # Big O notation : say we measure the time complexity in worse case  
+
+// TYPES OF TIME COMPLEXITY
+
+//  O(n)
+// O(log_n)
+// O(n^2)
+// O(n*log_n)
+// O(n^3)
+// O(2^n)
+// O(n!)
+
