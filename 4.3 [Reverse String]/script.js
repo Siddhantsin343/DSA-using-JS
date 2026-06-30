@@ -18,7 +18,7 @@ function reverseSting(s){
     let temp = s[i]
     s[i] = s[lenHalf-1-i]
     s[lenHalf-1-i] = temp
-  }
+}
 
 }
 console.log(reverseSting(s));
