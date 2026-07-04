@@ -8,5 +8,31 @@
 <body>
     <!-- Recursion -->
      <!-- fuction calling itself to solve a smaller version of the same problem   -->
+<script>
+    {
+        // print 1-n
+        let n = 5
+        function OneToN(n){
+            if(n===0) return;
+            OneToN(n-1)
+            console.log(n);
+            
+        }
+        OneToN(5);
+    
+    }
+
+    {
+        // print n-1
+        function NtoOne (n){
+            if(n===0) return
+            console.log(n);
+            NtoOne(n-1)
+        }
+        NtoOne(5)
+    }
+
+</script>
+
 </body>
 </html>
