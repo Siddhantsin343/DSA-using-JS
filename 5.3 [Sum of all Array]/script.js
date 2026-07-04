@@ -30,5 +30,5 @@ function ssum(n) {
     }
 }
 
-console.log(ssum(arr.length - 1));
+console.log( "ODD ", ssum(arr.length - 1));
 }
